@@ -1,0 +1,43 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	body{
+		background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	}
+	.menu{
+		margin: 0 0 30px;
+	}
+	.logo,.menu,.slider-content,.feature-left,.feature-right,.footer-content{
+		background-color: #EEBE00;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	body{
+		background-image: linear-gradient(to right top, #0c23a0, #49268d, #5d2e7d, #663a6f, #674765);
+	}
+	.menu{
+		margin: 0 0 30px;
+	}
+	.logo,.menu,.slider-content,.feature-left,.feature-right,.footer-content{
+		background-color: #FF530C;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	body{
+		background-image: linear-gradient(to right top, #944bbb, #a745b2, #b740a8, #c53b9d, #d03892);background-image: linear-gradient(to right top, #944bbb, #a745b2, #b740a8, #c53b9d, #d03892);
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	
+}
